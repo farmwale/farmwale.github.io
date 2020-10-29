@@ -1,0 +1,55 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #b87f45;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  position: relative;
+  background: url("../img/showcase_bg.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(184, 127, 69, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#ourproducts {
+  position: relative;
+  min-height: 600px; }
+  #ourproducts .primary-overlay {
+    background: rgba(184, 127, 69, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#ourteam img {
+  margin-top: -50px; }
+#ourteam .card:hover {
+  background: #b87f45;
+  color: #fff; }
+#ourteam .fab {
+  color: #fff; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
